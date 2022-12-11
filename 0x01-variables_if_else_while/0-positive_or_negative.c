@@ -3,7 +3,11 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Description - prints if random generated number is positive, zero or negative
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
         int n;
@@ -17,3 +21,4 @@ int main(void)
         else
                 printf("%d is positve\n", n);
         return (0);
+}
