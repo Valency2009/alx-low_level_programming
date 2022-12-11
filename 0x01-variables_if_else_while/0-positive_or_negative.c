@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
+
 /**
  * main - Entry point
  * Description - prints if random generated number is positive, zero or negative
@@ -21,3 +22,4 @@ int main(void)
                 printf("%d is positve\n", n);
         return (0);
 }
+
