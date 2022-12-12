@@ -13,7 +13,7 @@ int main(void)
 
 	for (hundreds = '0'; hundreds <= '9'; hundreds++)
 	{
-		for (tens = '0'; tens <= '9' tens++)
+		for (tens = '0'; tens <= '9'; tens++)
 		{
 			for (ones = '0'; ones <= '9'; ones++)
 			{
@@ -26,7 +26,7 @@ int main(void)
 					if (!(ones == '9' && hundreds == '7' &&
 								tens == '8')) /*adds comas and spaces*/
 					{
-						putchat(',');
+						putchar(',');
 						putchar(' ');
 					}
 				}
