@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <time.hi>
 
 /**
  * main - Print all possible combination of single digit numbers
@@ -22,3 +22,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
