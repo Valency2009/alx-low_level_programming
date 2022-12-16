@@ -3,10 +3,11 @@
 /**
  * print_triangle - entry point
  * owned by Vincent ICT
- * Description: Print diagonals
+ * Description: Prints diagonals
  * @size: size of the triangle
  * Return: void
  */
+
 void print_triangle(int size)
 {
 	int row, hashes, spaces;
