@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - entry point
- * owned by Vincent ICT
+ * owned by Valency ICT
  * Description: Prints diagonals
  * @size: size of the triangle
  * Return: void
@@ -27,8 +27,8 @@ void print_triangle(int size)
 			for (hashes = 1; hashes <= row; hashes++)
 			{
 				_putchar('#');
-			_putchar('\n');
 			}
+			_putchar('\n');
 		}
 	}
 }
