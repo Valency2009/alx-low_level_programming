@@ -12,6 +12,7 @@ char *cap_string(char *s)
 	while (*(s + i))
 	{
 		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
 			if (i == 0)
 				*(s + i) -= 'a' - 'A';
 			else
@@ -24,6 +25,7 @@ char *cap_string(char *s)
 					}
 				}
 			}
+		}
 	}
 	return (s);
 }
