@@ -3,7 +3,7 @@
  * _strstr - first occurence of the substring needle in the string haystack
  * @haystack: main str to be examined
  * @needle: searched in haystack
- * Return: return 0;
+ * Return: return 0
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (*str2 == '\0')
 			return (str1);
-		haystack = str + 1;
+		haystack = str1 + 1;
 	}
 	return (0);
 }
