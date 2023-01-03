@@ -1,25 +1,29 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _strspn - prints the consecutive characters of s1 that are in s2
- * @s: source string
- * @accept: searching string
- * Return: new string
+ * _strspn - a function that gets the length of a prefix substrin
+ *
+ * @s: the initial segment of
+ * @accept: which consist only of bytes from
+ * Return: the number of bytes
  */
-unsigned int_strspn(char *s, char *accept)
+
+unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j;
-
-	for (j = 0; *(s + j); j++)
+	int z = 0, x, y;
+	
+	for (x = 0; s[x] != '\0'; x++)
 	{
-		for (i = 0; *(accept + i); i++)
+		if (s[x] != 32)
 		{
-			if (*(s + j) == *(accept + i))
-				break;
+			for (y = 0; accept[y] != '\0'; y++)
+			{
+				if (s[x] == accept[y])
+					z++;
+			}
 		}
-	if (*(accept + i) == '\0')
-		break;
+		else
+			return (z);
 	}
-	return (j);
+	return (z);
 }
-
